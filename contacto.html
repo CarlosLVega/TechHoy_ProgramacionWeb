@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto - TechHoy</title>
+</head>
+<body>
+  <header>
+    <div align="center">
+    <h1>Contacto</h1>
+    <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="ultimas.html">Últimas</a> |
+      <a href="pc.html">PC</a> |
+      <a href="movil.html">Móvil</a> |
+      <a href="guias.html">Guías</a> |
+      <a href="multimedia.html">Multimedia</a> |
+      <a href="contacto.html">Contacto</a> |
+      <a href="acerca.html">Acerca</a>
+    </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>Envíanos tu mensaje</h2>
+    <p>¿Tienes dudas, sugerencias o deseas colaborar con nosotros? En <strong>TechHoy</strong> valoramos tu opinión. Completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible. Nuestro equipo revisará tu mensaje cuidadosamente para ofrecerte la mejor respuesta.</p>
+    <p>Puedes escribirnos para:</p>
+    <ul>
+      <li>Reportar errores o problemas en la página.</li>
+      <li>Sugerir nuevos artículos, guías o temas a cubrir.</li>
+      <li>Solicitar asesoría sobre hardware, software o tecnología en general.</li>
+      <li>Proponer colaboraciones o patrocinios.</li>
+    </ul>
+    <p>Por favor, asegúrate de llenar todos los campos requeridos y proporcionar la información correcta para que podamos responderte de manera rápida y efectiva.</p>
+
+    <form action="#" method="post">
+      <p>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+      </p>
+      <p>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+      </p>
+      <p>
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" min="1" max="120" placeholder="Tu edad">
+      </p>
+      <p>
+        <label for="tema">Tema:</label><br>
+        <select id="tema" name="tema" required>
+          <option value="">Seleccione una opción</option>
+          <option value="pc">PC / Hardware</option>
+          <option value="movil">Móvil</option>
+          <option value="ia">Inteligencia Artificial</option>
+          <option value="otro">Otro</option>
+        </select>
+      </p>
+      <p>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+      </p>
+      <p>
+        <button type="submit">Enviar</button>
+      </p>
+    </form>
+  </main>
+
+ <footer>
+    <p>&copy; 2025 TechHoy</p>
+    <p>Síguenos en: 
+      <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+      <a href="https://www.twitter.com" target="_blank">X</a> | 
+      <a href="https://www.instagram.com" target="_blank">Instagram</a> | 
+      <a href="https://www.youtube.com" target="_blank">YouTube</a>
+    </p>
+  </footer>
+</body>
+</html>
